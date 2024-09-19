@@ -1,0 +1,70 @@
+
+footer {
+    flex-direction: column;
+    background: hsla(174, 33%, 78%, 0.8); /* 透明な背景 */
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+    }
+  
+    .footer__box {
+      padding: 29px 18px 73px;
+    }
+  
+    .footer__bottom {
+      align-items: center;
+    }
+  
+    .footer__links li{
+      min-width: 10.2rem;
+    } 
+  
+    .copyright-area {
+      margin-top: 27px;
+    }
+  
+    .copyright {
+      color: #000;
+    }
+  
+    .sns.no-margin{
+        margin-top: 2rem;
+        padding: 18px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: #fff;
+        background: #122939;
+    }
+  
+    .sns-text {
+      color: #fff;
+      background: #122939;
+    }
+  
+    .sns-links {
+      display: flex;
+      justify-content: center;
+    }
+  
+     .sns-link-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 55px;
+      height: 55px;
+      background-color: #fff;
+      border-radius: 50%;
+    }
+  
+    .sns-link-item img {
+      vertical-align: middle;
+      text-decoration: none;
+    }
+  
+    .sns-links li+li {
+      margin-left: 16px;
+    }
+  

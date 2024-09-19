@@ -1,0 +1,79 @@
+/* サービス内容をflutterのcardのデザインのようにする */
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  .card {
+    position: relative;
+    color:white;
+    background-color: #B4D9D5;
+    height:260px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    transition: background-color 0.1s ease;
+    background-color: rgba(180, 217, 213, 0);
+    z-index: 2;
+    pointer-events: none;
+  }
+  
+  .card:hover::before{
+    opacity: 0.6;
+    filter: brightness(110%);
+    background-color: rgba(180, 217, 213, 0.6);
+  }
+  
+  .card:hover{
+    transform: scale(1.02);
+  }
+  
+  .card:active{
+    transform: scale(0.98);
+  }
+  
+  
+  .card-link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    text-decoration: none;
+    color:white;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 200px;
+  }
+  
+  
+  .card-content {
+    padding: 0px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    text-align:left;
+    margin: 0;
+    margin-top:8px;
+    margin-left:20px;
+  }
+  
+  

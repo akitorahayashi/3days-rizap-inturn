@@ -1,0 +1,53 @@
+
+/* ヘッダー */
+header {
+    position: fixed;
+    height: 300;
+    width: 100%;
+    background: hsla(174, 33%, 78%, 0.9); /* 透明な背景 */
+    color: #fff;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* ヘッダーが他のコンテンツの上に表示される */
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  #header_logo {
+    width: 150px; 
+  }
+
+  li {
+    height: 300;
+    margin: auto;
+    display: inline-block;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+  }
+  nav ul li a {
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+  }
+  nav ul li a:hover {
+    color: rgba(255, 255, 255, 1); /* ホバー時に色が変わる */
+  }

@@ -1,0 +1,17 @@
+
+.features {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .features .title {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  .feature-box {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+  }
